@@ -1,6 +1,13 @@
 <h1 align="center">kafka-traffic-control</h1>
 <img src="https://img.shields.io/badge/go-%2300ADD8.svg?&style=for-the-badge&logo=go&logoColor=white"  align="right" position="absolute">
 
+
+## Instalation
+
+```
+go get github.com/vitorhugoze/kafka-traffic-control
+```
+
 ## Description
 
 **kafka-traffic-control** is a library that has consumer and producer abstractions on top of **github.com/segmentio/kafka-go** for sending inputs from traffic signals and it's IoT sensors and receiving and handling that data on the other end.
